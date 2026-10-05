@@ -113,7 +113,7 @@ TCPView analysis reveals that the Python shellcode uses `AnyDesk.exe` to exfiltr
 *TCPView view showing AnyDesk.exe connecting to 141.227.178.79 over port 443.*
 
 
-##5.AnyDesk - Simplewall blocking remote IP addresses
+## 5.AnyDesk - Simplewall blocking remote IP addresses
 
 Simplewall analysis reveals that although the Python shellcode attempts to exfiltrate data to `141.227.178.79` via port 443 (HTTPS) using `AnyDesk.exe`, it tries to establish a connection to another legitimate address (`92.38.180.106`) when blocked.
 
